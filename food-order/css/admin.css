@@ -1,0 +1,165 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Wrapper */
+.wrapper {
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Text Center */
+.text-center {
+    text-align: center;
+}
+
+/* Rounded Square */
+.rounded-square {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+}
+
+.rounded-square:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+.tbl-full {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.tbl-full th, .tbl-full td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.tbl-full th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tbl-full tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.tbl-full tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary, .btn-danger {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+
+.btn-secondary {
+    background-color: #2ed573;
+}
+
+.btn-secondary:hover {
+    background-color: #27ae60;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Success and Error messages */
+.success {
+    color: #2ed573;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #eb2f06;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Clearfix */
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/* Menu */
+.menu {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #009432;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #4cd137;
+    color: white;
+}
+
+.fixed-size {
+    width: 200px;  /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* This ensures the image covers the area without distortion */
+}
+
